@@ -1,0 +1,38 @@
+# Bytecode / cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments (uv doesn't create venv by default, but just in case)
+.venv/
+venv/
+
+# uv build / artifacts
+.uv/
+uv.lock
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+*.egg
+
+# IDE / editor junk
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Test / coverage
+.coverage
+htmlcov/
+.tox/
+pytest_cache/
+
+# Optional: Jupyter
+.ipynb_checkpoints/
