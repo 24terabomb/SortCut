@@ -1,13 +1,29 @@
 [project]
 name = "sortcut"
 version = "0.1.0"
-description = "Add your description here"
+description = "A personal python lib used to avoid rewrite or finding code."
 readme = "README.md"
 authors = [
     { name = "24TeraBomb", email = "24terabomb@gmail.com" }
 ]
 requires-python = ">=3.14"
 dependencies = []
+
+# For PyPi (I'm dumb)
+
+license = "MIT"
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.14",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/24TeraBomb/sortcut"
+Source = "https://github.com/24TeraBomb/sortcut"
+Issues = "https://github.com/24TeraBomb/sortcut/issues"
 
 [build-system]
 requires = ["uv_build>=0.9.11,<0.10.0"]
